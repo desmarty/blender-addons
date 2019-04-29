@@ -5,7 +5,7 @@ bl_info = {
     "version": (0, 1, 0),
     "blender": (2, 80, 0),
     "location": "Properties Editor > Navigation Bar > Matrix World Data",
-    "description": "Shows Matrix World Data of a selected object",
+    "description": "Shows Matrix World Data of a selected physics simulated object",
     "category": "Object"}
     
 class PanelWorldData(bpy.types.Panel):
